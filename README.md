@@ -1,17 +1,26 @@
 # ProtoSpaceのER図
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+|users テーブル                            |
+|                                         |
+|email (string型, NOT NULL, ユニーク制約)   |
+|encrypted_password (string型, NOT NULL)
+|name (string型, NOT NULL)
+|profile (text型, NOT NULL)
+|occupation (text型, NOT NULL)
+|position (text型, NOT NULL)
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+# テーブル設計
 
-* Configuration
+## users テーブル
 
-* Database creation
+| Column             | Type   | Options     |
+| ------------------ | ------ | ----------- |
+| name               | string | null: false |
+| email              | string | null: false |
+| encrypted_password | string | null: false |
+
 
 * Database initialization
 
