@@ -1,15 +1,18 @@
 {
-  "name": "protospace_37408",
+  "name": "protospace-37408",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
     "@rails/ujs": "^6.0.0-alpha",
-    "@rails/webpacker": "4.3.0",
+    "@rails/webpacker": "4.2.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^4.7.3"
+    "webpack-dev-server": "^3.10.3"
+  },  // ここにカンマを記述
+  "engines" : {
+    "node": "v14.18.2"  // ここに先ほど確認したバージョンを記述
   }
-}
+ }
